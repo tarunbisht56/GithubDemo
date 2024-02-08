@@ -1,12 +1,24 @@
-git init 
+-> git init 
 // init a new repositary in local directory
-git add (filename)
+-> git add (filename)
 // add file to staging area
-git add .
+-> git add .
 // add all untracked file and changes to staging area
-git commit -m "new file added"
+-> git commit -m "new file added"
 // commit this file to repositary
-git config --global user.email "youremailid@gmail.com"
-git comfig --global user.name "your name"
-
-g
+-> git config --global user.email "youremailid@gmail.com"
+-> git comfig --global user.name "your name"
+->git ls-file
+//list all files available in staging area
+-> git rm --cached (filename)
+//you want to keep the file in ur hard disk but u dont want git to track this file
+-> git rm filename
+//delete this file from staging area and local directory
+-> git branch 
+//return all branches
+-> git branch second-branch
+// creates another branch whose name is second-branch
+-> git checkout second-branch
+//switch to second-branch
+-> git checkout -b third-branch
+// create and switch to third-branch

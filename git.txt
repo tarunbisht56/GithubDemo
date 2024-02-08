@@ -8,3 +8,5 @@ git commit -m "new file added"
 // commit this file to repositary
 git config --global user.email "youremailid@gmail.com"
 git comfig --global user.name "your name"
+
+g

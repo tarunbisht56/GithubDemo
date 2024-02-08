@@ -1,0 +1,10 @@
+git init 
+// init a new repositary in local directory
+git add (filename)
+// add file to staging area
+git add .
+// add all untracked file and changes to staging area
+git commit -m "new file added"
+// commit this file to repositary
+git config --global user.email "youremailid@gmail.com"
+git comfig --global user.name "your name"
